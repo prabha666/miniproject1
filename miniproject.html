@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+        .header{
+            min-height: 100vh;
+            width: 100%;
+            background-image: url(https://tse1.mm.bing.net/th?id=OIP.FAdBY11p--OR7EpnnhrapwHaEK&pid=Api&P=0&w=344&h=193);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        nav{
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav img{
+            width:"150px";
+        }
+        .nav-links{
+         flex: 1;
+         text-align: right;
+
+        }
+        .nav-links ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .nav-links ul li a{
+            color: #fff;
+            text-decoration:none;
+            font-size:14px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav-links ul li::after{
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+        }
+        .nav-links ul li:hover::after{
+            width: 100%;
+        }
+        .text-box{
+            width:90%;
+            color:#fff;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .text-box h1{
+            font-size: 62px;
+            ;
+        }
+        .text-box p{
+           margin: 10px 40px;
+           font-size: 14px;
+           color: #fff;
+        }
+        .hero-btn{
+            display: inline-block;
+            text-decoration: none;
+            color:#fff;
+            border: 1px solid #fff;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+        }
+        .hero-btn:hover{
+            border: 1px solid #f44336;
+            background: #f44336;    
+        }
+    
+        .sub{
+           text-align: center;
+           width: 80%;
+           margin: auto;
+          padding-top: 100px;
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 600;
+        }
+         p{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 10px;
+        
+        }
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .course-col{
+            flex-basis: 31%;
+            background: #fff3f3;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+
+        }
+        h3{
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .course-col:hover{
+            box-shadow: 0 0 20px 0pz rgba(red, green, blue, alpha);
+        }
+        .campus{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .campus-col{
+            flex-basis: 32;
+            display: inline-block;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        .campus-col img{
+            width: 100%;
+            
+        }
+        .layer{
+            background: transparent;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 0.5s;
+        }
+        .layer:hover{
+             background: rgba(226,0,0,0.7);
+        }
+        .layer h3{
+            width: 100%;
+            font-weight: 500;
+            color: #fff;
+            font-size: 26px;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            opacity: 0;
+        }
+        .layer:hover h3{
+            bottom: 49%;
+            opacity: 1;
+         }
+        
+        
+        
+</style>
+    
+</head>
+<body>
+    
+    <section class="header">
+<nav>
+    <a href="collegeindex.html"> <img src="https://tse3.mm.bing.net/th?id=OIP._0xeLSy4z-uhes6y1mKFiAHaC6&pid=Api&P=0&w=317&h=125" alt="" width="120px">
+    </a><div class="nav-links">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+
+    </div>
+    
+</nav>
+<div class="text-box">
+    <h1>World Biggest University</h1>
+    <p>
+        Making website is now one of the easiest thing in the world.you just 
+        need to learn HTML,<br>CSS,JAVASCRIPT and you are good to go.
+    </p>
+    <a href="" class="hero-btn">visit us to know more</a>
+</div>
+</section>
+   <section class="sub">
+      <h1>Courses We Offer </h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <div class="row">
+        <div class="course-col">
+            <h3>Intermedia</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non ipsa aspernatur incidunt voluptatum, temporibus fuga quidem provident magnam vitae sit? Blanditiis ipsa aspernatur adipisci quidem ratione quam perspiciatis explicabo.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non ipsa aspernatur incidunt voluptatum, temporibus fuga quidem provident magnam vitae sit? Blanditiis ipsa aspernatur adipisci quidem ratione quam perspiciatis explicabo.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum non ipsa aspernatur incidunt voluptatum, temporibus fuga quidem provident magnam vitae sit? Blanditiis ipsa aspernatur adipisci quidem ratione quam perspiciatis explicabo.
+            </p>
+        </div>
+     </div>
+
+   </section>     
+   <section class="campus">
+    <h1>Our Global campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="campus-col">
+       
+            <img src="https://tse1.mm.bing.net/th?id=OIP.IAON6gSD9A-y7RQHDyzzvwHaFj&pid=Api&P=0&w=229&h=171" width="500px" alt="">
+            <div class="layer">
+                <h3>INDIA</h3> 
+             </div>
+        
+        </div>
+    
+             <div class="campus-col">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.UG3-qONiwypyCZ32dw1DewHaEK&pid=Api&P=0&w=311&h=175
+            " width="500px" alt="">
+            <div class="layer">
+                <h3>DELHI</h3>
+             </div>
+             </div>
+             <div class="campus-col">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.uTEwYIEbBb2KCFI3DiZxqAHaDg&pid=Api&P=0&w=339&h=160" width="500px" alt="">
+            <div class="layer">
+                <h3>MUMBAI</h3> 
+             </div>
+        
+        </div>
+    </div>
+
+   </section>
+
+    
+</body>
+</html>
